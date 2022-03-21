@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to react-bookmark-tree 👋</h1>
+<h1 align="center">React bookmark tree</h1>
 <p>
   <a href="https://www.npmjs.com/package/react-bookmark-tree" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/react-bookmark-tree.svg">
