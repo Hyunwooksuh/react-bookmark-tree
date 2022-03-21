@@ -10,41 +10,66 @@
 
 > A simple react folder tree component
 
-### 🏠 [Homepage](https://github.com/Hyunwooksuh/react-bookmark-tree.git)
-
-### ✨ [Demo](https://github.com/Hyunwooksuh/react-bookmark-tree.git)
-
 ## Install
 
 ```sh
-npm install
+npm i react-bookmark-tree
 ```
 
 ## Usage
 
-```sh
-import { tree } from &#34;react-bookmark-tree&#34;
+<img width="532" alt="image" src="https://user-images.githubusercontent.com/65224203/159202637-c3244f69-d784-4115-ad7f-08e4c733c208.png">
+
+
+```Javascript
+import { Tree } from "react-boomark-tree"
+
+...
+
+<Tree folderList={folderList} />
+
+...
+
+Tree.propTypes = {
+  folderList: PropTypes.array.isRequired
+};.
 ```
 
-## Run tests
+Injection of plain array consist of objects is required for usage. The listed component turns the prop structure into a nested array with hierarchical structures. folderlist json example is as below:
 
-```sh
-npm run test
+```javascript
+export const folderList = [
+  {
+    "_id": "a",
+    "title": "초보자용 리액트 링크모음",
+    "publisher": "흥민",
+    "likes": 10,
+    "bookmark": ["wwww.react-basic.com"],
+    "parent_folder": "root"
+  },
+  {
+    "_id": "b",
+    "title": "중급자용 리액트 링크모음",
+    "publisher": "희찬",
+    "likes": 9, 
+    "bookmark": ["wwww.react-intermediate.com"],
+    "parent_folder": "root"
+  },
+  {
+    "_id": "c",
+    "title": "고급자용 리액트 링크모음",
+    "publisher": "진수",
+    "likes": 134,
+    "bookmark": ["wwww.react-advanced.com"],
+    "parent_folder": "a"
+  },
+  {
+    "_id": "d",
+    "title": "초보자용 노드 링크모음",
+    "publisher": "의조",
+    "likes": 33,
+    "bookmark": ["wwww.nodejs-basic.com"],
+    "parent_folder": "a"
+  },
+]
 ```
-
-## Author
-
-👤 **Hyunwook suh**
-
-* Github: [@Hyunwooksuh](https://github.com/Hyunwooksuh)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-<a href="https://www.patreon.com/Sihyun Lee, Taeyong ha">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
