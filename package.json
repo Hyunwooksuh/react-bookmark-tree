@@ -9,9 +9,25 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build-lib": "rollup -c"
+    "build-lib": "rollup a-c"
   },
-  "author": "Hyunwook suh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hyunwooksuh/react-bookmark-tree.git"
+  },
+  "contributors": [
+    "Sihyun Lee <https://github.com/shlee39>",
+    "Taeyong Ha <https://github.com/hatae94>"
+  ],
+  "keywords": [
+    "bookmark",
+    "tree",
+    "react"
+  ],
+  "author": {
+    "name": "Hyunwook suh",
+    "email": "hyunwook0521@naver.com"
+  },
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.17.7",
