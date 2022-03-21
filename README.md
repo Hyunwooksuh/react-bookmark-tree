@@ -17,7 +17,7 @@
 ## Install
 
 ```sh
-npm install
+npm install 
 ```
 
 ## Usage
@@ -26,25 +26,8 @@ npm install
 import { tree } from &#34;react-bookmark-tree&#34;
 ```
 
-## Run tests
-
-```sh
-npm run test
-```
-
 ## Author
 
 👤 **Hyunwook suh**
 
 * Github: [@Hyunwooksuh](https://github.com/Hyunwooksuh)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-<a href="https://www.patreon.com/Sihyun Lee, Taeyong ha">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
