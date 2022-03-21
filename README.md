@@ -42,33 +42,21 @@ export const folderList = [
   {
     "_id": "a",
     "title": "초보자용 리액트 링크모음",
-    "publisher": "흥민",
-    "likes": 10,
-    "bookmark": ["wwww.react-basic.com"],
     "parent_folder": "root"
   },
   {
     "_id": "b",
     "title": "중급자용 리액트 링크모음",
-    "publisher": "희찬",
-    "likes": 9, 
-    "bookmark": ["wwww.react-intermediate.com"],
     "parent_folder": "root"
   },
   {
     "_id": "c",
     "title": "고급자용 리액트 링크모음",
-    "publisher": "진수",
-    "likes": 134,
-    "bookmark": ["wwww.react-advanced.com"],
     "parent_folder": "a"
   },
   {
     "_id": "d",
     "title": "초보자용 노드 링크모음",
-    "publisher": "의조",
-    "likes": 33,
-    "bookmark": ["wwww.nodejs-basic.com"],
     "parent_folder": "a"
   },
 ]
